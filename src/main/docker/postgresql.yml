@@ -5,8 +5,8 @@ services:
     # volumes:
     #     - ~/volumes/jhipster/siukibana/postgresql/:/var/lib/postgresql/data/
     environment:
-      - POSTGRES_USER=siukibana
-      - POSTGRES_PASSWORD=
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
       - POSTGRES_HOST_AUTH_METHOD=trust
     ports:
       - 5432:5432
